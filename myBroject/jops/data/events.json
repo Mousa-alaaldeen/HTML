@@ -1,0 +1,909 @@
+ {
+    "musicEvents": [
+      {
+        "id": 1,
+        "name": "Music Concert",
+        "date": "2024-10-10",
+        "location": "Gaza",
+        "description": "Live music concert with various artists.",
+        "availableSeats": 100,
+        "imageURL": "https://media.istockphoto.com/id/1330424071/photo/large-group-of-people-at-a-concert-party.jpg?s=1024x1024&w=is&k=20&c=conViIiS9YY2UVDJgq-vO02rTiu0JuzJTzYDLUMZQiI="
+      },
+      {
+        "id": 2,
+        "name": "Jazz Night",
+        "date": "2024-10-15",
+        "location": "Ramallah",
+        "description": "An evening of smooth jazz with renowned musicians.",
+        "availableSeats": 80,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Jazz_festival.jpg/1200px-Jazz_festival.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Rock Festival",
+        "date": "2024-11-05",
+        "location": "Nablus",
+        "description": "A day full of rock music performances.",
+        "availableSeats": 150,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Rock_festival.jpg/1200px-Rock_festival.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Pop Music Night",
+        "date": "2024-11-20",
+        "location": "Hebron",
+        "description": "Enjoy popular hits with local pop artists.",
+        "availableSeats": 200,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Pop_music.jpg/1200px-Pop_music.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Classical Evening",
+        "date": "2024-11-30",
+        "location": "Jerusalem",
+        "description": "An evening of classical music.",
+        "availableSeats": 50,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Classical_music_concert.jpg/1200px-Classical_music_concert.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Acoustic Night",
+        "date": "2024-12-05",
+        "location": "Gaza",
+        "description": "Intimate acoustic performances by local artists.",
+        "availableSeats": 75,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Acoustic_performance.jpg/1200px-Acoustic_performance.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Reggae Festival",
+        "date": "2024-12-15",
+        "location": "Bethlehem",
+        "description": "A vibrant reggae music festival.",
+        "availableSeats": 100,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Reggae_festival.jpg/1200px-Reggae_festival.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Folk Music Night",
+        "date": "2024-12-20",
+        "location": "Jenin",
+        "description": "Experience the charm of folk music.",
+        "availableSeats": 60,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Folk_music.jpg/1200px-Folk_music.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Electronic Music Festival",
+        "date": "2025-01-10",
+        "location": "Gaza",
+        "description": "A festival featuring top electronic DJs.",
+        "availableSeats": 200,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Electronic_festival.jpg/1200px-Electronic_festival.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Indie Music Showcase",
+        "date": "2025-01-15",
+        "location": "Ramallah",
+        "description": "A showcase of the best indie artists.",
+        "availableSeats": 90,
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Indie_showcase.jpg/1200px-Indie_showcase.jpg"
+      }
+    ]
+    ,
+    "techEvents": [
+      {
+        "id": 11,
+        "name": "Tech Conference",
+        "date": "2024-10-11",
+        "location": "Ramallah",
+        "description": "Annual tech conference featuring industry leaders.",
+        "availableSeats": 50,
+        "imageURL": "images/tech-conference.jpg"
+      },
+      {
+        "id": 12,
+        "name": "AI Workshop",
+        "date": "2024-11-02",
+        "location": "Gaza",
+        "description": "Workshop on Artificial Intelligence and its applications.",
+        "availableSeats": 40,
+        "imageURL": "images/ai-workshop.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Web Development Bootcamp",
+        "date": "2024-11-15",
+        "location": "Nablus",
+        "description": "A bootcamp to learn web development skills.",
+        "availableSeats": 30,
+        "imageURL": "images/web-bootcamp.jpg"
+      },
+      {
+        "id": 14,
+        "name": "Mobile App Development",
+        "date": "2024-11-25",
+        "location": "Jerusalem",
+        "description": "Learn to develop mobile applications.",
+        "availableSeats": 20,
+        "imageURL": "images/mobile-development.jpg"
+      },
+      {
+        "id": 15,
+        "name": "Cybersecurity Seminar",
+        "date": "2024-12-01",
+        "location": "Bethlehem",
+        "description": "A seminar on the latest trends in cybersecurity.",
+        "availableSeats": 100,
+        "imageURL": "images/cybersecurity-seminar.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Blockchain Workshop",
+        "date": "2024-12-10",
+        "location": "Gaza",
+        "description": "Understanding blockchain technology and its uses.",
+        "availableSeats": 50,
+        "imageURL": "images/blockchain-workshop.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Startup Pitch Competition",
+        "date": "2024-12-20",
+        "location": "Ramallah",
+        "description": "Pitch your startup idea to investors.",
+        "availableSeats": 75,
+        "imageURL": "images/startup-pitch.jpg"
+      },
+      {
+        "id": 18,
+        "name": "Data Science Bootcamp",
+        "date": "2025-01-05",
+        "location": "Nablus",
+        "description": "Intensive bootcamp on data science techniques.",
+        "availableSeats": 25,
+        "imageURL": "images/data-science-bootcamp.jpg"
+      },
+      {
+        "id": 19,
+        "name": "Digital Marketing Workshop",
+        "date": "2025-01-15",
+        "location": "Hebron",
+        "description": "Learn digital marketing strategies and tools.",
+        "availableSeats": 40,
+        "imageURL": "images/digital-marketing.jpg"
+      },
+      {
+        "id": 20,
+        "name": "Tech Innovation Expo",
+        "date": "2025-01-20",
+        "location": "Jerusalem",
+        "description": "Explore the latest innovations in technology.",
+        "availableSeats": 200,
+        "imageURL": "images/tech-expo.jpg"
+      }
+    ],
+    "artEvents": [
+      {
+        "id": 21,
+        "name": "Art Exhibition",
+        "date": "2024-10-12",
+        "location": "Jerusalem",
+        "description": "A showcase of modern art and sculptures.",
+        "availableSeats": 75,
+        "imageURL": "images/art-exhibition.jpg"
+      },
+      {
+        "id": 22,
+        "name": "Sculpture Workshop",
+        "date": "2024-11-05",
+        "location": "Hebron",
+        "description": "Learn the art of sculpture with hands-on guidance.",
+        "availableSeats": 30,
+        "imageURL": "images/sculpture-workshop.jpg"
+      },
+      {
+        "id": 23,
+        "name": "Painting Class",
+        "date": "2024-11-15",
+        "location": "Gaza",
+        "description": "A painting class for beginners and experienced artists.",
+        "availableSeats": 40,
+        "imageURL": "images/painting-class.jpg"
+      },
+      {
+        "id": 24,
+        "name": "Photography Exhibition",
+        "date": "2024-11-25",
+        "location": "Ramallah",
+        "description": "Exhibition showcasing local photographers.",
+        "availableSeats": 60,
+        "imageURL": "images/photography-exhibition.jpg"
+      },
+      {
+        "id": 25,
+        "name": "Ceramics Workshop",
+        "date": "2024-12-01",
+        "location": "Nablus",
+        "description": "Learn ceramics and pottery making.",
+        "availableSeats": 20,
+        "imageURL": "images/ceramics-workshop.jpg"
+      },
+      {
+        "id": 26,
+        "name": "Street Art Festival",
+        "date": "2024-12-10",
+        "location": "Gaza",
+        "description": "A festival celebrating street art and graffiti.",
+        "availableSeats": 100,
+        "imageURL": "images/street-art-festival.jpg"
+      },
+      {
+        "id": 27,
+        "name": "Film Screening",
+        "date": "2024-12-20",
+        "location": "Bethlehem",
+        "description": "Screening of independent films.",
+        "availableSeats": 80,
+        "imageURL": "images/film-screening.jpg"
+      },
+      {
+        "id": 28,
+        "name": "Creative Writing Workshop",
+        "date": "2025-01-01",
+        "location": "Ramallah",
+        "description": "Workshop focusing on creative writing techniques.",
+        "availableSeats": 30,
+        "imageURL": "images/writing-workshop.jpg"
+      },
+      {
+        "id": 29,
+        "name": "Art Therapy Session",
+        "date": "2025-01-10",
+        "location": "Nablus",
+        "description": "Using art as a form of therapy.",
+        "availableSeats": 15,
+        "imageURL": "images/art-therapy.jpg"
+      },
+      {
+        "id": 30,
+        "name": "Digital Art Workshop",
+        "date": "2025-01-15",
+        "location": "Gaza",
+        "description": "Learn the basics of digital art creation.",
+        "availableSeats": 25,
+        "imageURL": "images/digital-art-workshop.jpg"
+      },
+      {
+        "id": 31,
+        "name": "Culinary Arts Festival",
+        "date": "2025-02-10",
+        "location": "Bethlehem",
+        "description": "A festival celebrating culinary arts with tastings.",
+        "availableSeats": 100,
+        "imageURL": "images/culinary-festival.jpg"
+      },
+      {
+        "id": 32,
+        "name": "Baking Workshop",
+        "date": "2025-02-15",
+        "location": "Hebron",
+        "description": "Hands-on baking workshop for all skill levels.",
+        "availableSeats": 40,
+        "imageURL": "images/baking-workshop.jpg"
+      },
+      {
+        "id": 33,
+        "name": "Wine Tasting Event",
+        "date": "2025-02-20",
+        "location": "Gaza",
+        "description": "An evening of wine tasting with local wineries.",
+        "availableSeats": 50,
+        "imageURL": "images/wine-tasting.jpg"
+      },
+      {
+        "id": 34,
+        "name": "Food Photography Workshop",
+        "date": "2025-03-01",
+        "location": "Nablus",
+        "description": "Learn how to take stunning food photos.",
+        "availableSeats": 30,
+        "imageURL": "images/food-photography.jpg"
+      },
+      {
+        "id": 35,
+        "name": "Cultural Heritage Festival",
+        "date": "2025-03-10",
+        "location": "Ramallah",
+        "description": "Celebrating local cultural heritage through arts and crafts.",
+        "availableSeats": 100,
+        "imageURL": "images/cultural-festival.jpg"
+      },
+      {
+        "id": 36,
+        "name": "Heritage Cooking Class",
+        "date": "2025-03-20",
+        "location": "Bethlehem",
+        "description": "Learn traditional recipes from local chefs.",
+        "availableSeats": 20,
+        "imageURL": "images/heritage-cooking.jpg"
+      },
+      {
+        "id": 37,
+        "name": "Theater Play",
+        "date": "2025-03-25",
+        "location": "Gaza",
+        "description": "Watch an engaging theater play performed by local artists.",
+        "availableSeats": 80,
+        "imageURL": "images/theater-play.jpg"
+      },
+      {
+        "id": 38,
+        "name": "Dance Performance",
+        "date": "2025-04-01",
+        "location": "Hebron",
+        "description": "A captivating dance performance by local dancers.",
+        "availableSeats": 60,
+        "imageURL": "images/dance-performance.jpg"
+      },
+      {
+        "id": 39,
+        "name": "Photography Workshop",
+        "date": "2025-04-10",
+        "location": "Ramallah",
+        "description": "Learn photography skills with practical exercises.",
+        "availableSeats": 40,
+        "imageURL": "images/photography-workshop.jpg"
+      },
+      {
+        "id": 40,
+        "name": "Nature Photography Event",
+        "date": "2025-04-20",
+        "location": "Nablus",
+        "description": "Capture the beauty of nature with photography.",
+        "availableSeats": 30,
+        "imageURL": "images/nature-photography.jpg"
+      },
+      {
+        "id": 41,
+        "name": "Children's Art Festival",
+        "date": "2025-05-01",
+        "location": "Gaza",
+        "description": "A fun festival for children to showcase their art.",
+        "availableSeats": 100,
+        "imageURL": "images/childrens-art-festival.jpg"
+      },
+      {
+        "id": 42,
+        "name": "Storytelling Event",
+        "date": "2025-05-10",
+        "location": "Bethlehem",
+        "description": "An engaging storytelling event for families.",
+        "availableSeats": 50,
+        "imageURL": "images/storytelling-event.jpg"
+      },
+      {
+        "id": 43,
+        "name": "Community Service Day",
+        "date": "2025-05-20",
+        "location": "Ramallah",
+        "description": "Join us for a day of community service activities.",
+        "availableSeats": 100,
+        "imageURL": "images/community-service.jpg"
+      },
+      {
+        "id": 44,
+        "name": "Outdoor Yoga Retreat",
+        "date": "2025-06-01",
+        "location": "Nablus",
+        "description": "A relaxing yoga retreat in nature.",
+        "availableSeats": 30,
+        "imageURL": "images/yoga-retreat.jpg"
+      },
+      {
+        "id": 45,
+        "name": "Wellness Workshop",
+        "date": "2025-06-10",
+        "location": "Gaza",
+        "description": "Workshop on wellness and mental health.",
+        "availableSeats": 40,
+        "imageURL": "images/wellness-workshop.jpg"
+      },
+      {
+        "id": 46,
+        "name": "Environmental Awareness Event",
+        "date": "2025-06-20",
+        "location": "Ramallah",
+        "description": "Learn about environmental issues and solutions.",
+        "availableSeats": 50,
+        "imageURL": "images/environmental-event.jpg"
+      },
+      {
+        "id": 47,
+        "name": "Travel Photography Workshop",
+        "date": "2025-07-01",
+        "location": "Nablus",
+        "description": "Learn photography skills while traveling.",
+        "availableSeats": 20,
+        "imageURL": "images/travel-photography.jpg"
+      },
+      {
+        "id": 48,
+        "name": "Camping Event",
+        "date": "2025-07-10",
+        "location": "Gaza",
+        "description": "Join us for a weekend camping trip.",
+        "availableSeats": 60,
+        "imageURL": "images/camping-event.jpg"
+      },
+      {
+        "id": 49,
+        "name": "Music Festival",
+        "date": "2025-08-01",
+        "location": "Ramallah",
+        "description": "Enjoy a weekend of music and fun.",
+        "availableSeats": 150,
+        "imageURL": "images/music-festival.jpg"
+      },
+      {
+        "id": 50,
+        "name": "Art and Craft Fair",
+        "date": "2025-08-10",
+        "location": "Bethlehem",
+        "description": "A fair showcasing local art and crafts.",
+        "availableSeats": 100,
+        "imageURL": "images/art-craft-fair.jpg"
+      },
+      {
+        "id": 51,
+        "name": "Local Cuisine Festival",
+        "date": "2025-08-20",
+        "location": "Gaza",
+        "description": "Taste the best local cuisines at this festival.",
+        "availableSeats": 200,
+        "imageURL": "images/local-cuisine-festival.jpg"
+      },
+      {
+        "id": 52,
+        "name": "Street Performance Night",
+        "date": "2025-09-01",
+        "location": "Ramallah",
+        "description": "An evening of amazing street performances.",
+        "availableSeats": 150,
+        "imageURL": "images/street-performance-night.jpg"
+      },
+      {
+        "id": 53,
+        "name": "Charity Run",
+        "date": "2025-09-10",
+        "location": "Nablus",
+        "description": "Join us for a charity run to support a cause.",
+        "availableSeats": 100,
+        "imageURL": "images/charity-run.jpg"
+      },
+      {
+        "id": 54,
+        "name": "Wine and Paint Night",
+        "date": "2025-09-20",
+        "location": "Gaza",
+        "description": "A fun night of painting and wine tasting.",
+        "availableSeats": 40,
+        "imageURL": "images/wine-paint-night.jpg"
+      },
+      {
+        "id": 55,
+        "name": "Pottery Workshop",
+        "date": "2025-09-25",
+        "location": "Bethlehem",
+        "description": "Learn the art of pottery making.",
+        "availableSeats": 20,
+        "imageURL": "images/pottery-workshop.jpg"
+      },
+      {
+        "id": 56,
+        "name": "Photography Exhibition",
+        "date": "2025-10-01",
+        "location": "Ramallah",
+        "description": "Exhibition showcasing the best local photography.",
+        "availableSeats": 100,
+        "imageURL": "images/photography-exhibition.jpg"
+      },
+      {
+        "id": 57,
+        "name": "Literature Festival",
+        "date": "2025-10-10",
+        "location": "Gaza",
+        "description": "A celebration of literature and storytelling.",
+        "availableSeats": 80,
+        "imageURL": "images/literature-festival.jpg"
+      },
+      {
+        "id": 58,
+        "name": "Fitness Bootcamp",
+        "date": "2025-10-20",
+        "location": "Nablus",
+        "description": "A weekend bootcamp for fitness enthusiasts.",
+        "availableSeats": 40,
+        "imageURL": "images/fitness-bootcamp.jpg"
+      },
+      {
+        "id": 59,
+        "name": "Meditation Retreat",
+        "date": "2025-11-01",
+        "location": "Ramallah",
+        "description": "A retreat focused on meditation and relaxation.",
+        "availableSeats": 25,
+        "imageURL": "images/meditation-retreat.jpg"
+      },
+      {
+        "id": 60,
+        "name": "Sculpture Workshop",
+        "date": "2025-11-10",
+        "location": "Bethlehem",
+        "description": "Learn the techniques of sculpture making.",
+        "availableSeats": 15,
+        "imageURL": "images/sculpture-workshop.jpg"
+      },
+      {
+        "id": 61,
+        "name": "Film Festival",
+        "date": "2025-11-20",
+        "location": "Gaza",
+        "description": "A festival showcasing local and international films.",
+        "availableSeats": 200,
+        "imageURL": "images/film-festival.jpg"
+      },
+      {
+        "id": 62,
+        "name": "Digital Marketing Workshop",
+        "date": "2025-12-01",
+        "location": "Nablus",
+        "description": "Learn about digital marketing strategies.",
+        "availableSeats": 30,
+        "imageURL": "images/digital-marketing-workshop.jpg"
+      },
+      {
+        "id": 63,
+        "name": "Fashion Show",
+        "date": "2025-12-10",
+        "location": "Ramallah",
+        "description": "A fashion show featuring local designers.",
+        "availableSeats": 100,
+        "imageURL": "images/fashion-show.jpg"
+      },
+      {
+        "id": 64,
+        "name": "Health and Wellness Expo",
+        "date": "2025-12-20",
+        "location": "Gaza",
+        "description": "An expo focusing on health and wellness resources.",
+        "availableSeats": 150,
+        "imageURL": "images/health-expo.jpg"
+      },
+      {
+        "id": 65,
+        "name": "Coding Bootcamp",
+        "date": "2026-01-01",
+        "location": "Nablus",
+        "description": "A bootcamp to learn coding and programming.",
+        "availableSeats": 30,
+        "imageURL": "images/coding-bootcamp.jpg"
+      },
+      {
+        "id": 66,
+        "name": "Community Art Project",
+        "date": "2026-01-10",
+        "location": "Ramallah",
+        "description": "Participate in a community art project.",
+        "availableSeats": 50,
+        "imageURL": "images/community-art-project.jpg"
+      },
+      {
+        "id": 67,
+        "name": "Eco-Friendly Living Workshop",
+        "date": "2026-01-20",
+        "location": "Bethlehem",
+        "description": "Learn how to live more sustainably.",
+        "availableSeats": 25,
+        "imageURL": "images/eco-friendly-workshop.jpg"
+      },
+      {
+        "id": 68,
+        "name": "Book Club Meeting",
+        "date": "2026-02-01",
+        "location": "Gaza",
+        "description": "Join us for a discussion of the latest book.",
+        "availableSeats": 20,
+        "imageURL": "images/book-club.jpg"
+      },
+      {
+        "id": 69,
+        "name": "Yoga and Meditation Class",
+        "date": "2026-02-10",
+        "location": "Nablus",
+        "description": "A class combining yoga and meditation.",
+        "availableSeats": 30,
+        "imageURL": "images/yoga-meditation.jpg"
+      },
+      {
+        "id": 70,
+        "name": "Street Art Festival",
+        "date": "2026-02-20",
+        "location": "Ramallah",
+        "description": "A festival celebrating street art and graffiti.",
+        "availableSeats": 100,
+        "imageURL": "images/street-art-festival.jpg"
+      },
+      {
+        "id": 71,
+        "name": "Music Production Workshop",
+        "date": "2026-03-01",
+        "location": "Gaza",
+        "description": "Learn the basics of music production.",
+        "availableSeats": 20,
+        "imageURL": "images/music-production-workshop.jpg"
+      },
+      {
+        "id": 72,
+        "name": "Sustainable Fashion Workshop",
+        "date": "2026-03-10",
+        "location": "Nablus",
+        "description": "Workshop on sustainable fashion practices.",
+        "availableSeats": 25,
+        "imageURL": "images/sustainable-fashion.jpg"
+      },
+      {
+        "id": 73,
+        "name": "Artistic Photography Workshop",
+        "date": "2026-03-20",
+        "location": "Bethlehem",
+        "description": "Explore artistic photography techniques.",
+        "availableSeats": 15,
+        "imageURL": "images/artistic-photography.jpg"
+      },
+      {
+        "id": 74,
+        "name": "Personal Development Seminar",
+        "date": "2026-04-01",
+        "location": "Gaza",
+        "description": "A seminar on personal development and growth.",
+        "availableSeats": 40,
+        "imageURL": "images/personal-development.jpg"
+      },
+      {
+        "id": 75,
+        "name": "Mindfulness Workshop",
+        "date": "2026-04-10",
+        "location": "Ramallah",
+        "description": "A workshop focusing on mindfulness practices.",
+        "availableSeats": 30,
+        "imageURL": "images/mindfulness-workshop.jpg"
+      },
+      {
+        "id": 76,
+        "name": "Cultural Exchange Program",
+        "date": "2026-04-20",
+        "location": "Nablus",
+        "description": "Experience different cultures through exchange programs.",
+        "availableSeats": 50,
+        "imageURL": "images/cultural-exchange.jpg"
+      },
+      {
+        "id": 77,
+        "name": "Gardening Workshop",
+        "date": "2026-05-01",
+        "location": "Gaza",
+        "description": "Learn how to start and maintain a garden.",
+        "availableSeats": 25,
+        "imageURL": "images/gardening-workshop.jpg"
+      },
+      {
+        "id": 78,
+        "name": "Creative Writing Competition",
+        "date": "2026-05-10",
+        "location": "Ramallah",
+        "description": "Participate in a competition for aspiring writers.",
+        "availableSeats": 100,
+        "imageURL": "images/writing-competition.jpg"
+      },
+      {
+        "id": 79,
+        "name": "Local Business Expo",
+        "date": "2026-05-20",
+        "location": "Nablus",
+        "description": "An expo to promote local businesses.",
+        "availableSeats": 80,
+        "imageURL": "images/business-expo.jpg"
+      },
+      {
+        "id": 80,
+        "name": "Music Jam Session",
+        "date": "2026-06-01",
+        "location": "Gaza",
+        "description": "An informal jam session for musicians.",
+        "availableSeats": 50,
+        "imageURL": "images/jam-session.jpg"
+      },
+      {
+        "id": 81,
+        "name": "Cooking Class with Chefs",
+        "date": "2026-06-10",
+        "location": "Bethlehem",
+        "description": "Cook with professional chefs and learn new recipes.",
+        "availableSeats": 30,
+        "imageURL": "images/cooking-class.jpg"
+      },
+      {
+        "id": 82,
+        "name": "Health and Fitness Challenge",
+        "date": "2026-06-20",
+        "location": "Nablus",
+        "description": "Join a month-long challenge to improve health and fitness.",
+        "availableSeats": 100,
+        "imageURL": "images/fitness-challenge.jpg"
+      },
+      {
+        "id": 83,
+        "name": "Startup Pitch Night",
+        "date": "2026-07-01",
+        "location": "Gaza",
+        "description": "Present your startup idea and get feedback from experts.",
+        "availableSeats": 50,
+        "imageURL": "images/startup-pitch.jpg"
+      },
+      {
+        "id": 84,
+        "name": "Outdoor Movie Night",
+        "date": "2026-07-10",
+        "location": "Ramallah",
+        "description": "Enjoy a movie under the stars with friends and family.",
+        "availableSeats": 200,
+        "imageURL": "images/outdoor-movie.jpg"
+      },
+      {
+        "id": 85,
+        "name": "Local Food Festival",
+        "date": "2026-07-20",
+        "location": "Bethlehem",
+        "description": "Taste a variety of local dishes from different vendors.",
+        "availableSeats": 150,
+        "imageURL": "images/food-festival.jpg"
+      },
+      {
+        "id": 86,
+        "name": "Bicycle Race",
+        "date": "2026-08-01",
+        "location": "Nablus",
+        "description": "Participate in a fun and challenging bicycle race.",
+        "availableSeats": 100,
+        "imageURL": "images/bicycle-race.jpg"
+      },
+      {
+        "id": 87,
+        "name": "Dance Workshop",
+        "date": "2026-08-10",
+        "location": "Gaza",
+        "description": "Learn various dance styles in this fun workshop.",
+        "availableSeats": 30,
+        "imageURL": "images/dance-workshop.jpg"
+      },
+      {
+        "id": 88,
+        "name": "Hiking Adventure",
+        "date": "2026-08-20",
+        "location": "Ramallah",
+        "description": "Join a guided hike through beautiful landscapes.",
+        "availableSeats": 25,
+        "imageURL": "images/hiking-adventure.jpg"
+      },
+      {
+        "id": 89,
+        "name": "Community Cleanup Day",
+        "date": "2026-09-01",
+        "location": "Nablus",
+        "description": "Help clean up the community and make a difference.",
+        "availableSeats": 100,
+        "imageURL": "images/cleanup-day.jpg"
+      },
+      {
+        "id": 90,
+        "name": "Book Fair",
+        "date": "2026-09-10",
+        "location": "Gaza",
+        "description": "A fair showcasing local authors and publishers.",
+        "availableSeats": 150,
+        "imageURL": "images/book-fair.jpg"
+      },
+      {
+        "id": 91,
+        "name": "Technology and Innovation Summit",
+        "date": "2026-09-20",
+        "location": "Bethlehem",
+        "description": "Explore the latest trends in technology and innovation.",
+        "availableSeats": 200,
+        "imageURL": "images/tech-summit.jpg"
+      },
+      {
+        "id": 92,
+        "name": "Mental Health Awareness Workshop",
+        "date": "2026-10-01",
+        "location": "Ramallah",
+        "description": "Workshop focusing on mental health awareness and support.",
+        "availableSeats": 30,
+        "imageURL": "images/mental-health-workshop.jpg"
+      },
+      {
+        "id": 93,
+        "name": "Family Fun Day",
+        "date": "2026-10-10",
+        "location": "Nablus",
+        "description": "A day filled with fun activities for the whole family.",
+        "availableSeats": 150,
+        "imageURL": "images/family-fun-day.jpg"
+      },
+      {
+        "id": 94,
+        "name": "Volunteer Day",
+        "date": "2026-10-20",
+        "location": "Gaza",
+        "description": "Join us for a day of volunteering in the community.",
+        "availableSeats": 100,
+        "imageURL": "images/volunteer-day.jpg"
+      },
+      {
+        "id": 95,
+        "name": "Outdoor Yoga Session",
+        "date": "2026-11-01",
+        "location": "Ramallah",
+        "description": "Join us for a peaceful yoga session outdoors.",
+        "availableSeats": 30,
+        "imageURL": "images/outdoor-yoga.jpg"
+      },
+      {
+        "id": 96,
+        "name": "Local Art Fair",
+        "date": "2026-11-10",
+        "location": "Bethlehem",
+        "description": "A fair featuring local artists and their works.",
+        "availableSeats": 100,
+        "imageURL": "images/art-fair.jpg"
+      },
+      {
+        "id": 97,
+        "name": "Crafting Workshop",
+        "date": "2026-11-20",
+        "location": "Gaza",
+        "description": "Learn various crafting techniques in this workshop.",
+        "availableSeats": 25,
+        "imageURL": "images/crafting-workshop.jpg"
+      },
+      {
+        "id": 98,
+        "name": "Networking Event for Entrepreneurs",
+        "date": "2026-12-01",
+        "location": "Nablus",
+        "description": "Connect with other entrepreneurs and share ideas.",
+        "availableSeats": 50,
+        "imageURL": "images/networking-event.jpg"
+      },
+      {
+        "id": 99,
+        "name": "End-of-Year Celebration",
+        "date": "2026-12-10",
+        "location": "Ramallah",
+        "description": "Celebrate the end of the year with music and food.",
+        "availableSeats": 200,
+        "imageURL": "images/end-of-year-celebration.jpg"
+      },
+      {
+        "id": 100,
+        "name": "New Year's Eve Party",
+        "date": "2026-12-31",
+        "location": "Gaza",
+        "description": "Ring in the new year with a party and fireworks.",
+        "availableSeats": 300,
+        "imageURL": "images/new-year-party.jpg"
+      }
+    ]
+  }
